@@ -2,6 +2,7 @@ package edu.austral.ingsis.math;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+
 import edu.austral.ingsis.math.operations.*;
 import java.util.Map;
 import org.junit.jupiter.api.Test;

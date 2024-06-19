@@ -3,6 +3,7 @@ package edu.austral.ingsis.math;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.empty;
+
 import edu.austral.ingsis.math.operations.*;
 import java.util.List;
 import org.junit.jupiter.api.Test;
