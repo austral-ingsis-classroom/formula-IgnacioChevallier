@@ -1,0 +1,18 @@
+@startuml
+interface Function {
+    + float evaluate();
+    + List<Variable> getVariables();
+}
+
+class Variable {
+    - String name;
+    - float value;
+}
+
+interface Operation {
+    + float do();
+}
+
+Function *-- Variable: ""
+Function *-- Operation: ""
+@enduml
